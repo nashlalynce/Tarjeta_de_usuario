@@ -1,0 +1,49 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.rectangulo-perfil{
+    background-color:black;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+    margin: 0 auto;
+    position: relative;
+}
+
+.foto-perfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid rgb(50, 50, 50);
+    position: absolute;
+    bottom: -100px;
+    left: 50px;
+    object-fit: cover;
+}
+
+main{
+    display: flex;
+}
+
+.cuadro-texto{
+    background-color:darkgray;
+    width: 100%;
+    height: 300px;
+    padding: 100px;
+    padding-left: 50px;
+}
+
+h2{
+    font-weight: normal;
+}
+
+h3, h4{
+    font-weight: 100;
+}
+
+p{
+    background-color:rgb(149, 149, 149);
+    padding: 10px;
+    width: 90px;
+}
